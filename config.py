@@ -13,7 +13,7 @@ class Config(object):
     ARQ_API_KEY = "PMPTTD-HOMLMF-SRBHNH-RZMWXL-ARQ"
     SPAMWATCH_API = None
     TOKEN = getenv("TOKEN", "7667702659:AAHPIU2yQEMrbOu696qO93VaKcg92h6j5DM")
-    OWNER_ID = int(getenv("OWNER_ID", 6289029511))
+    OWNER_ID = int(getenv("OWNER_ID", "6289029511"))
     OWNER_USERNAME = getenv("OWNER_USERNAME", "Yash_747")
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "AbishnoiMF")
     LOGGER_ID = int(getenv("LOGGER_ID", "-1002288846111"))
@@ -22,8 +22,8 @@ class Config(object):
         "mongodb+srv://Avon:Avon@avon.fstai.mongodb.net/?retryWrites=true&w=majority",
     )
     DB_NAME = getenv("DB_NAME", "Avon")
-    REDIS_URL = "redis://default:wK6ZCiclq4iQKYpgfY90v6kd6WdPfEwl@redis-10186.c263.us-east-1-2.ec2.cloud.redislabs.com:10186/default"
-    DATABASE_URL = getenv("DATABASE_URL", None)
+    REDIS_URL = "redis://default:3cmDFTT9nIbpV2Of5iH9RolC4AcDD3JR@redis-15566.crce182.ap-south-1-1.ec2.redns.redis-cloud.com:15566"
+    DATABASE_URL = getenv("DATABASE_URL", "postgres://qszfsijv:y6sYqkEb8Z9lFGBmriG7AYjbSbgAJBVk@peanut.db.elephantsql.com/qszfsijv")
 
     # ɴᴏ ᴇᴅɪᴛ ᴢᴏɴᴇ
     if DATABASE_URL.startswith("postgres://"):
